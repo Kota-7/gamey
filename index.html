@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Exploração do Castelo Abandonado</title>
+</head>
+<body>
+    <main>
+        <section class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Imagem inicial da aventura">
+            <p>Você encontra um antigo castelo abandonado e decide explorar. Dentro do castelo, você encontra dois caminhos misteriosos: um portal que parece levar ao futuro e outro que parece retroceder no tempo. Qual caminho você escolherá?</p>
+            <button class="btn-proximo" data-proximo="1">Entrar no portal do futuro</button>
+            <button class="btn-proximo" data-proximo="2">Voltar no tempo</button>
+        </section>
+        
+        <section class="passo" id="passo-1">
+            <p>Você entra no portal e se vê em um futuro distante, onde uma jovem misteriosa está esperando por você. Ela parece saber algo sobre o castelo.</p>
+            <button class="btn-proximo" data-proximo="3">Perguntar sobre o castelo</button>
+            <button class="btn-proximo" data-proximo="4">Explorar o futuro com a jovem</button>
+        </section>
+        
+        <section class="passo" id="passo-2">
+            <p>Você retrocede no tempo e encontra o castelo em sua forma original, ainda em construção. No entanto, você se vê desorientado e começa a perceber que não consegue encontrar o caminho de volta.</p>
+            <button class="btn-proximo" data-proximo="5">Continuar explorando o passado</button>
+        </section>
+        
+        <section class="passo" id="passo-3">
+            <p>A jovem lhe conta que o castelo guarda um segredo antigo que pode ser encontrado em algum lugar do futuro.</p>
+            <button class="btn-proximo" data-proximo="4">Explorar o futuro com a jovem</button>
+        </section>
+
+        <section class="passo" id="passo-4">
+            <p>Você decide explorar o futuro com a jovem e descobre um mundo incrível cheio de mistérios e avanços tecnológicos. A aventura continua enquanto vocês desvendam juntos os segredos do futuro.</p>
+            <img src="img/cenario-passo11.png" alt="Imagem do futuro explorado com a jovem">
+        </section>
+
+        <section class="passo" id="passo-5">
+            <p>Explorando o passado, você percebe que está cada vez mais perdido. O castelo está em ruínas e você se vê preso em um mundo antigo, sem poder voltar ao presente.</p>
+            <img src="img/cenario-passo4.png" alt="Imagem de alguém perdido no passado">
+            <p>Você enfrenta desafios e enigmas sem fim, sem conseguir encontrar uma saída.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
